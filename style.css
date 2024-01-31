@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+}
+
 ul, ol {
     list-style: none;
 }
@@ -17,6 +24,7 @@ button {
 /* FOND */
 
 body {
+
     background-color: yellow;
     width: 100%;
     height: 100vh;
